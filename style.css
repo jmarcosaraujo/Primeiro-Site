@@ -1,0 +1,109 @@
+/* Estilos básicos para loja de hardware gamer */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #f1f1f1;
+  background-color: #0a0f1d;
+}
+
+header {
+  background-color: #121a2d;
+  padding: 24px 16px;
+  border-bottom: 2px solid #252f4a;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+header p {
+  color: #c3c8d6;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+nav a {
+  color: #82c7ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  padding: 20px 16px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 24px;
+  padding: 14px;
+  background-color: #121a2d;
+  border: 1px solid #232f4a;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 12px;
+  color: #b2d5ff;
+}
+
+h3 {
+  color: #e2eaf7;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+section#destaques article,
+section#processadores li,
+section#placas-video li,
+section#memoria li,
+section#armazenamento li,
+section#coolers li {
+  padding: 10px;
+  border: 1px solid #2b3b5a;
+  border-radius: 6px;
+  background-color: #141d34;
+}
+
+p {
+  color: #c6d3e8;
+}
+
+footer {
+  text-align: center;
+  padding: 18px 10px;
+  background-color: #121a2d;
+  border-top: 2px solid #252f4a;
+  color: #9da9c6;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    gap: 20px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  main {
+    padding: 24px;
+  }
+}
