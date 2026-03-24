@@ -21,3 +21,5 @@ Projeto simples de site de vendas de componentes para computadores gamers.
 ## Licença
 
 Este projeto é para estudo e demonstração.
+
+video https://youtu.be/HPRM9urutd4
