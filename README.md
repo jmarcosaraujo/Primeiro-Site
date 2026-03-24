@@ -22,4 +22,6 @@ Projeto simples de site de vendas de componentes para computadores gamers.
 
 Este projeto é para estudo e demonstração.
 
-video https://youtu.be/HPRM9urutd4
+## 🚀 Veja o projeto em ação
+![Preview](./assets/demo.gif)
+▶️ [Assista ao vídeo completo no YouTube](https://youtu.be/HPRM9urutd4)
